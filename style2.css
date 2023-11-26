@@ -1,0 +1,286 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300&display=swap');
+
+.back-home{
+    height: 72px;  
+    width: 204px;
+    background: #151515;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    }
+
+.link{
+    color: var(--White, #FFF);
+    
+}
+
+
+
+
+.back-home h3{
+    margin-left: 15px;
+}
+
+.arrow-left{
+
+    background: #d5966c;
+    height: 72px;
+    width: 56px;
+    color: white;
+    font-weight: 300;
+    font-size: 40px;
+    border: white;
+     }
+
+
+
+
+.back-home:hover{
+    cursor: pointer;
+
+
+
+}
+
+.btn:hover .back-home {
+    background-color: #D5966C;
+    }
+            
+    .btn:hover .arrow-left  {
+    background-color: #151515;
+    }
+    
+.btn{
+
+        display: flex;
+        position:absolute;
+        }
+ 
+
+.map {
+    position: relative;
+    max-width: 1207.313px;
+    width: 100%;
+    height: 574px;
+}
+
+
+.art-map{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main{
+    display: flex;
+    background: #151515;
+    justify-content: space-around;
+
+
+}
+.title{
+    color: var(--White, #FFF);
+    font-family: Big Shoulders Display;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 45px; /* 90% */
+    text-transform: uppercase;
+    padding: 48px 16px;
+}
+
+.street{
+    color: var(--Gold, #D5966C);
+    font-family: Big Shoulders Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; /* 100% */
+    text-transform: uppercase;
+    padding: 48px 16px;
+
+
+}
+
+.coordinate{
+    color: var(--White, #FFF);
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 155.556% */
+    max-width: 343px;
+    width: 100%;
+    padding: 16px 20px;
+
+
+}
+.location-description{
+    color: var(--White, #FFF);
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 155.556% */
+    max-width: 343px;
+    padding: 16px 20px;
+    width: 100%;
+}
+
+.footer{
+    width: 375px;
+    height: 336px;  
+    background: var(--Gold, #D5966C);
+}
+
+.txt{
+    max-width: 110.05px;
+    width: 100%;
+    margin-top: 48px;
+    margin-left: 32px;
+}
+
+.art-description{
+    color: var(--Almost-Black, #151515);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px; /* 162.5% */
+    max-width: 311px;
+    padding: 32px 38px;
+}
+ 
+
+.social{
+    padding: 32px 48px;
+}
+
+.social:hover{
+    cursor: pointer;
+}
+
+@media(max-width:768px){        
+
+    .map{
+        
+        position: relative;
+        max-width: 1207.313px;
+        width: 100%;
+        height: 600px;
+    }
+    .main{
+        display: flex;
+        flex-direction:row;
+        gap:68px;
+        max-width: 768px;
+        width: 100%;
+        background: #151515;
+    }
+
+    .title{
+        max-width: 223px;
+        
+    }
+
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        max-width: 768px;
+        height: 216px;
+        width: 100%;
+        background: var(--Gold, #D5966C);
+        }
+
+    .txt{
+        width: 110.05px;
+        height: 40px;
+
+    }
+
+    .art-description{
+        color: var(--Almost-Black, #151515);
+        font-family: Outfit;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 26px; 
+        
+    }
+
+    }
+  
+        
+@media(max-width:376px){
+    .main{
+        flex-direction: column;
+        display: block;
+        max-width: 375px;
+        width: 100%;
+    }
+    .footer{
+        flex-direction: column;
+        display: block;
+        max-width: 375px;
+        width: 100%;
+        background: var(--Gold, #D5966C);
+        height: 336px
+        }
+}
+
+ @media(max-width:1920px){
+        .map{
+                
+        position: relative;
+        max-width: 1920px;
+        width: 100%;
+        height: 685px;
+        
+    }
+    .map img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .title{
+        max-width: 350px;
+        color: var(--White, #FFF);
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 70px; /* 100% */
+        text-transform: uppercase;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        max-width: 1920px;
+        width: 100%;
+        
+    }
+
+    .txt{
+        max-width: 159.572px;
+        height: 58px
+    }
+
+    .art-description{
+        max-width: 430px;
+        color: var(--Almost-Black, #151515);
+        font-family: Outfit;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 28px;
+    }
+
+}
+    
+        
+    
+
+

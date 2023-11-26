@@ -1,0 +1,547 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.for-tablet{
+    display: none;
+}
+.for-mobile{
+    display: none;
+}
+body {
+    font-family:  sans-serif;
+    /* overflow: hidden; */
+  
+}
+.container{
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.heared-parts{
+    display: flex;
+    width: 1275px;
+    position: relative;
+}
+.header-about{
+    position: absolute;
+    right: 0;
+    top: 190px;
+    z-index: 3;
+}
+ 
+.photo-back{
+    max-width: 990px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    
+}
+.photo-black-bg{
+    position: absolute;
+    left: 0;
+    max-width: 450px;
+    width: 100%;
+    height: 800px;
+    background-color: #151515;
+    z-index: 1;
+}
+.people-photo{
+    position: absolute;
+    max-width: 540px;
+    width: 100%;
+    height: 800px;
+    right: 0;
+    z-index: 2;
+}
+.modern-text{
+    display: block;
+}
+.modern-wraper{
+    display: flex;
+}
+.modern-title{
+    position: absolute;
+    top:189px;
+    left: 165px;
+    z-index: 3;
+    color: var(--White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Big Shoulders Display;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 900; 
+    text-transform: uppercase;
+    max-width: 514px;
+    width: 100%;
+}
+.modern-text{
+    text-align: left;
+}
+.art-gallery-text span{
+    color: black;
+}
+   
+.people-photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.mobile-resolution{
+    visibility: hidden;
+}
+.lery-bg{
+    color: #000;
+}
+
+.art-description{
+    color: var(--Dark-Grey, #444);
+    font-family: "Outfit", sans-serif;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 32px;
+    font-weight: 300;
+    max-width: 350px;
+    width: 100%;
+    display: flex;
+    /* padding: 16px 32px; */
+    margin-bottom: 64px;
+}
+
+.location{
+    width: 204px;
+    height: 72px;
+    background: var(--Almost-Black, #151515);
+    color: var(--White, #FFF);
+    font-family: Big Shoulders Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 3.636px;
+}
+
+.location:hover{
+    cursor: pointer;
+}
+
+.link{
+    color: var(--White, #FFF);
+
+}
+.btn{
+    display: flex;
+}
+
+.arrow-right{
+    
+        background: #d5966c;
+        height: 72px;
+        width: 56px;
+        color: white;
+        font-weight: 300;
+        font-size: 40px;
+        border: white;
+        
+        
+}
+.gallery{
+    position: relative;
+    margin-top: 980px;
+}
+.art-room-wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.art-room{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.art-room-photo{
+    max-width: 635px;
+    width: 100%;
+    height: 400px;
+}
+.art-room-photo img{
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-title{
+    color: var(--Almost-Black, #151515);
+    font-family: Big Shoulders Display;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 45px; /* 90% */
+    text-transform: uppercase;
+    max-width: 343px;
+    width: 100%;
+ 
+}
+
+.gallery-info{
+    color: var(--Dark-Grey, #444);
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 155.556% */
+    max-width: 343px;
+    display: flex;
+   /* padding: 16px 21px; */
+}
+.photos{
+    margin-top: 30px;
+}
+.people-gallary{
+    max-width: 445px;
+    width: 100%;
+    height: 313px;
+}
+.people-gallary img{
+    width: 100%;
+    height: 100%;
+}
+.art-photos{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.chair-photo{
+    max-width: 635px;
+    width: 100%;
+    height: 720px;
+}
+.chair-photo img{
+    width: 100%;
+    height: 100%;
+}
+.text{
+    max-width: 445px;
+    width: 100%;
+    height: 377px;
+    background-color: #151515;
+    margin-top: 30px;
+    text-align: left;
+}
+ 
+.inspired{
+    color: var(--White, #FFF);
+    font-family: Big Shoulders Display;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 45px; /* 90% */
+    text-transform: uppercase;
+    display: flex;
+    text-align: left;
+    padding-top: 65px;
+    padding-left: 48px;
+    padding-right: 48px;
+ 
+
+     
+}
+
+.welcome-text{
+    color: var(--White, #FFF);
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 155.556% */
+    max-width: 350px;
+    width: 100%;
+    padding-top: 32px;
+    padding-left: 48px;
+   /*padding-right: 48px; */
+}
+
+.black-footer{
+    width: 100%;
+    margin-top: 120px;
+   
+    background: var(--Almost-Black, #151515);
+}
+.footer-wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-top: 46px;
+    padding-bottom: 80px;
+}
+.footer-img{
+    max-width: 110.05px;
+    width: 100%;
+    height: 40px;
+}
+.footer-description{
+    color: var(--White, #FFF);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px; /* 162.5% */
+    max-width: 430px;
+    width: 100%;
+    display: flex;
+}
+
+.group{
+    display: flex;
+ 
+    
+}
+.logos{
+
+        display: flex;
+        column-gap: 20px;
+    
+}
+
+.group:hover{
+    cursor: pointer;
+    }
+
+    .location:hover  {
+        background-color: #D5966C;
+        }
+        
+        .btn:hover .arrow-right {
+        background-color: #151515;
+        }
+@media(max-width:768px){
+    .container{
+        max-width: 689px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .for-tablet{
+        display: block;
+        max-width: 674px;
+        width: 100%;
+        position: relative;
+    }
+    .people-photo-tab{
+        max-width: 437px;
+        width: 100%;
+        height: 700px;
+    }
+    .header-about-tab{
+        position: absolute;
+        right: -20px;
+        top: 145px;
+    }
+    .tab-modern-title{
+        max-width: 330px;
+        width: 100%;
+        color: var(--Almost-Black, #151515);
+        font-family: Big Shoulders Display;
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 65px; /* 92.857% */
+        text-transform: uppercase;
+    }
+    .art-description{
+        max-width: 339px;
+        margin-top: 48px;
+        width: 100%;
+        color: var(--Dark-Grey, #444);
+        font-family: Outfit;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 28px; /* 155.556% */
+    }
+    .people-photo-tab img{
+        width: 100%;
+        height: 100%;
+    }
+    .header-tablet-wraper{
+        display: flex;
+    }
+     .photo-black-bg{
+        display: none;
+     }
+     .for-desktop{
+        display: none;
+     }
+     .people-photo{
+        max-width: 437px;
+        width: 100%;
+        height: 700px;
+     }
+     .people-photo img{
+        width: 100%;
+        height: 100%;
+     }
+     .location{
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        letter-spacing: 3.636px;
+     }
+     .gallery{
+        margin-top: 120px;
+     }
+     .gallery-title{
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 45px; /* 90% */
+        text-transform: uppercase;
+        margin-bottom: 24px;
+     }
+     .art-room-photo{
+        max-width: 398px;
+        width: 100%;
+        height: 400px;
+     }
+     .art-room-about{
+        width: 223px;
+     }
+     .gallery-info{
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 28px;
+     }
+     .art-room-photo img{ width: 100%; height: 100% };
+
+     .text{
+        padding: 0px;
+        background-color: #151515;
+         
+    }
+     .inspired{
+        max-width: 223px;
+        width: 100%;
+        color: var(--White, #FFF);
+        font-family: Big Shoulders Display;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        text-transform: uppercase;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0 auto;
+        padding-top: 85px;
+
+
+     }
+     .welcome-text{
+        color: var(--White, #FFF);
+        font-family: Outfit;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 28px; 
+        max-width: 223px;
+        width: 100%;
+        padding-top: 0;
+        padding-left: 0;
+        
+        width: 250px;
+        margin: 0 auto;
+    }
+    .chair-photo{
+        max-width: 398px;
+        width: 100%;
+        height: 720px;
+       
+    }
+    .chair-photo img{
+        width: 100%;
+        height: 100%;
+    }
+    .footer-description{
+        color: var(--White, #FFF);
+        font-family: Outfit;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 26px; /* 162.5% */
+        max-width: 281px;
+
+    }
+}
+
+
+@media(max-width:376px){
+    .container{
+        max-width: 343px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .for-mobile{
+        display: block;
+    }
+    .for-tablet{
+        display: none;
+    }
+    .people-photo-mobile{
+        max-width: 375px;
+        width: 100%;
+        height: 240px;
+    }
+    .people-photo-mobile img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .art-room-wraper{
+        display: block;
+    }
+    .tab-modern-title{
+        font-size: 60px;
+        margin-top: 32px;
+    }
+    .gallery-title{
+        width: 375px;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 45px;
+        margin-top: 25px;
+    }
+    .gallery-info{
+        width: 343px;
+    }
+    .gallery{
+        margin-top: 120px;
+    }
+    .art-photos{
+        display: block;
+    }
+    .chair-photo{
+        width: 343px;
+        height: 480px;
+        margin-bottom: 20px;
+    }
+    .chair-photo img{
+        width: 100%;
+        height: 100%;
+    }
+    .footer-wraper{
+        display: block;
+        padding: 48px 32px;
+    }
+    .footer-text{
+        margin-top: 38px;
+        margin-bottom: 38px;
+    }
+    
+}
